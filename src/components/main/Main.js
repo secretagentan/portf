@@ -4,7 +4,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        hiiiii
+        <p className="pa4">hiiiii</p>
       </div>
     );
   }
