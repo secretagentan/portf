@@ -6,10 +6,22 @@ class App extends Component {
     super();
     this.state = {
       projects: [
-        "dots-n-boxes",
-        "ripe-af",
-        "alt-facts",
-        "oh-no"
+        {
+          name: "dots-n-boxes",
+          img: ""
+        },
+        {
+          name: "ripe-af",
+          img: ""
+        },
+        {
+          name: "alt-facts",
+          img: ""
+        },
+        {
+          name: "oh-no",
+          img: ""
+        }
       ],
       worlds: ["🌎","🌍","🌏"]
     }
