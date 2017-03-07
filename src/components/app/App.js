@@ -10,13 +10,14 @@ class App extends Component {
         "ripe-af",
         "alt-facts",
         "oh-no"
-      ]
+      ],
+      worlds: ["🌎","🌍","🌏"]
     }
   }
   render() {
     return (
       <div className="vh-100 w-100 bg-pink">
-        <Header projects={this.state.projects}/>
+        <Header projects={this.state.projects} worlds={this.state.worlds}/>
         {this.props.children}
       </div>
     );
