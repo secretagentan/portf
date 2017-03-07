@@ -13,7 +13,7 @@ class Header extends Component {
             web dev
           </a>
         </div>
-        <div className="fl w-third-l tr-l w-100 tc">
+        <div className="fr w-third-l tr-l w-100 tc">
           <div className="ma0">
             {this.props.projects.map( (project, index) => {
               let i = index + 1;
