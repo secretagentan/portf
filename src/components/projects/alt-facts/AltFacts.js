@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
-class Project extends Component {
+
+class AltFacts extends Component {
+
   render() {
     return (
       <div>
-
+        alt-facts
       </div>
-    );
+    )
   }
 }
 
-export default Project;
+export default AltFacts;
