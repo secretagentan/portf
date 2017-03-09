@@ -7,9 +7,9 @@ class RipeAF extends Component {
     return (
       <div className="vh-100">
         <iframe
-          sandbox="allow-scripts"
+          sandbox="allow-scripts allow-forms allow-same-origin"
           style={{ border: "none", background: "white", width: "100%", height: "100%" }}
-          src="https://trashdaemon.github.io/project_01_build_a_game/"
+          src="https://sleepy-peak-50234.herokuapp.com/"
         />
       </div>
     )
