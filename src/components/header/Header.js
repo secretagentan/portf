@@ -7,10 +7,22 @@ class Header extends Component {
       <div className="white pv1 ph2">
         <div className="fl mw8 w-two-thirds-l w-100 tl-l tc">
           <a title="say hi"
-            href="mailto:kora.colasuonno@gmail.com" className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white">kora colasuonno</a>
-          <Link title="root" to="/" className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline">✨</Link>
+            href="mailto:kora.colasuonno@gmail.com"
+            className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white"
+            // style={{ textShadow: "-0.5px 0.5px 0 black"}}
+            >
+              kora colasuonno
+            </a>
+          <Link title="root" to="/"
+            className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white"
+            // style={{ textShadow: "-0.5px 0.5px 0 black"}}
+            >
+              ✨
+            </Link>
           <a title="github" href="https://github.com/trashdaemon"
-            className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white">
+            // style={{ textShadow: "-0.5px 0.5px 0 black"}}
+            className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white"
+          >
             web dev
           </a>
         </div>
