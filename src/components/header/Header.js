@@ -6,9 +6,10 @@ class Header extends Component {
     return (
       <div className="white pv1 ph2">
         <div className="fl mw8 w-two-thirds-l w-100 tl-l tc">
-          <p className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b">kora colasuonno</p>
-          <p className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b">✨</p>
-          <a href="https://github.com/trashdaemon"
+          <a title="say hi"
+            href="mailto:kora.colasuonno@gmail.com" className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white">kora colasuonno</a>
+          <Link title="root" to="/" className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline">✨</Link>
+          <a title="github" href="https://github.com/trashdaemon"
             className="dib ma0-ns mt2 mb0 f2-ns f3 tracked-tight b no-underline white">
             web dev
           </a>
@@ -19,11 +20,11 @@ class Header extends Component {
               let i = index + 1;
               return (
                 <div key={i} className="dib">
-                  <Link
+                  <Link title={project.name}
                     to={project.name} key={i}
                     className="ma0 f2 b tracked-mega no-underline white"
                     >{i}</Link>
-                    <p className="dib ma0 f2-ns f3 b tracked-mega no-underline white">
+                    <p className="dib ma0 mb2 f2-ns f3 b tracked-mega no-underline white">
                       {(i !== 4 ? this.props.worlds[index] : null )}
                     </p>
                 </div>
