@@ -1,5 +1,6 @@
 * {
   font-family: 'Inknut Antiqua', serif;
+  font-size: 16px;
   /*font-family: 'Arvo', serif;
   font-family: 'Merriweather', serif;
   font-family: 'Merriweather Sans', sans-serif;
@@ -9,4 +10,11 @@
   font-family: 'Marko One', serif;
   font-family: 'Laila', serif;
   font-family: 'Supermercado One', cursive;*/
+}
+.dib {
+  line-height: 1.2;
+}
+.proj-link {
+  display: inline-block;
+  line-height: 1;
 }

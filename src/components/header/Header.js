@@ -34,7 +34,7 @@ class Header extends Component {
                 <div key={i} className="dib">
                   <Link title={project.name}
                     to={project.name} key={i}
-                    className="ma0 f2 b tracked-mega no-underline white"
+                    className="proj-link ma0 f2 b tracked-mega no-underline white"
                     >{i}</Link>
                     <p className="dib ma0 mb2 f2-ns f3 b tracked-mega no-underline white">
                       {(i !== 4 ? this.props.worlds[index] : null )}
